@@ -1,57 +1,68 @@
-# Add `~/bin` to the `$PATH`
+alias club="cd /Users/jwainwright/Sites/club-ll/"
+alias bashProfile="sublime ~/.bash_profile"
 
-export PATH="$HOME/bin:$PATH";
-# export PATH="/usr/local/bin:$PATH"
+alias gitDocs="cd /Users/jwainwright/Dropbox/me/git-docs/"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+alias dscBlog="cd /Users/jwainwright/crap/engineering-blog/"
+alias updateDSCrepos="cd code; . update-repos.sh"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
+# force quit from terminal
+alias forceQuit="ps -ax"
+# then kill id(s) (id = first number table)
+
+# ------
+# random
+# ------
+alias disapprove='echo "ಠ_ಠ" | pbcopy'
+alias shrug='echo ¯\\_\(ツ\)_/¯ | pbcopy'
+
+alias jefflocal='bundle exec jekyll serve -w --config _config.yml,_config_dev.yml --incremental'
+
+alias phpini='sublime /Users/jwainwright/Sites/ll-wordpress/wp-content/plugins/algoliasearch-wordpress-develop/dev/bin/php.ini'
+
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# -------
+# mySQL
+# -------
+export PATH=${PATH}:/usr/local/mysql/bin
+
+export PATH="$HOME/.npm-packages/bin:$PATH"
+
+# -------
+# host setups
+# -------
+alias hosts="sublime /etc/hosts"
+alias vhosts="sublime /etc/apache2/vhosts"
+
+# -------
+# pear
+# -------
+export PATH=/Users/jwainwright/pear/bin:$PATH
+
+# -------
+# yarn
+# -------
+export PATH="$PATH:$HOME/.yarn/bin"
+
+# -------
+# nvm
+# -------
+export NVM_DIR="/Users/jwainwright/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# -------
+# Club LL Staging 
+# -------
+alias staging='ssh -i ~/.ssh/ll-stage.pem ec2-user@52.40.148.117'
+
+# -------
+# automate computer updates
+# -------
+
+# -------
+# automate node projects updates
+# -------
+
+export PATH="/usr/local/sbin:$PATH"export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
-
-source ~/.bashrc
-
-# Load the shell dotfiles, and then some:
-# * ~/.path can be used to extend `$PATH`.
-# * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
-	[ -r "$file" ] && [ -f "$file" ] && source "$file";
-done;
-unset file;
-
-# Case-insensitive globbing (used in pathname expansion)
-shopt -s nocaseglob;
-
-# Append to the Bash history file, rather than overwriting it
-shopt -s histappend;
-
-# Autocorrect typos in path names when using `cd`
-shopt -s cdspell;
-
-# Enable some Bash 4 features when possible:
-# * `autocd`, e.g. `**/qux` will enter `./foo/bar/baz/qux`
-# * Recursive globbing, e.g. `echo **/*.txt`
-for option in autocd globstar; do
-	shopt -s "$option" 2> /dev/null;
-done;
-
-# Add tab completion for many Bash commands
-if which brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
-	source "$(brew --prefix)/share/bash-completion/bash_completion";
-elif [ -f /etc/bash_completion ]; then
-	source /etc/bash_completion;
-fi;
-
-# Enable tab completion for `g` by marking it as an alias for `git`
-if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
-	complete -o default -o nospace -F _git g;
-fi;
-
-# Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
-[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
-
-# Add tab completion for `defaults read|write NSGlobalDomain`
-# You could just use `-g` instead, but I like being explicit
-complete -W "NSGlobalDomain" defaults;
-
-alias gitDocs='cd /Users/jwainwright/Dropbox/me/git-docs'
