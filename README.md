@@ -4,7 +4,10 @@
 
 ## `.Dot` files
 
-
+-  `.bash_profile`
+-  `.bashrc`
+-  `.zshrc`
+-  `.gitconfig`
 
 ## Notes
 
