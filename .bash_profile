@@ -1,3 +1,9 @@
+#----------------#
+#       ⚡️        #
+# Bash Profile   #
+#		⚡️  	     #
+#----------------#
+
 alias club="cd /Users/jwainwright/Sites/club-ll/"
 alias bashProfile="sublime ~/.bash_profile"
 
