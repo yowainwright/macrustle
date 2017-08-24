@@ -1,3 +1,9 @@
+#----------------#
+#       ⚡️        #
+# Bash Profile   #
+#		⚡️  	     #
+#----------------#
+
 [ -n "$PS1" ] && source ~/.bash_profile;
 
 export NVM_DIR="$HOME/.nvm"
