@@ -1,0 +1,31 @@
+{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    ".git",
+    ".bundle",
+    ".sass-cache",
+    "node_modules",
+    "tmp",
+  ],
+  "font_size": 15,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "indent_guide_options":
+  [
+    "draw_normal",
+    "draw_active"
+  ],
+  "overlay_scroll_bars": "enabled",
+  "spacegray_fileicons": true,
+  "spell_check": true,
+  "tab_size": 2,
+  "theme": "Default.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "word_wrap": true
+}
