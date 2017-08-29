@@ -1,19 +1,26 @@
-# Computer Setup
+# Mac Development Setup
 
-> Below are useful tools for computer setup
+> A useful for setting up a mac for software development
 
-## `.Dot` files
+-  This suite is generally built
+-  Read carefully before building _or_ don't get upset if something is messed up—just file an [issue]()
 
--  `.bash_profile`
--  `.bashrc`
--  `.zshrc`
--  `.gitconfig`
+----
 
-## Development installations
+
+## Standard development package installations
 
 > Common development installations 
 
-#### Homebrew
+### Build it
+
+To build everything step-by-step, read below ro build all thing things by running this script!
+
+```bash
+
+```
+
+### Homebrew
 
 -  Loosely, a Mac OS package Manager
   -  A helpful utility for installing helpful utilities
@@ -24,7 +31,7 @@
 
 ```
 
-#### Node
+### Node
 
 -  Serverside Javascript
   -  used as a server and for utility
@@ -34,7 +41,7 @@
 brew install node
 ```
 
-#### Nvm
+### Nvm
 
 -  Node version manager
   -  [Read more](https://github.com/creationix/nvm/blob/master/README.md)
@@ -44,7 +51,39 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 
 ```
 
-#### Rbenv
+
+### Git
+```bash
+
+```
+
+
+### Bash Profile (post standard installations)
+
+Useful `dotfile` configuration after installing Standard development packages
+
+-  [`.bash_profile`dotfile]()
+
+-  [`.bashrc` dotfile]()
+
+-  [`.gitconfig` dotfile]()
+
+
+----
+
+## Opinionated development package management installations
+
+More opinionated tools for modern software development 
+
+### Build it
+
+To build everything step-by-step, read below ro build all thing things by running this script!
+
+```bash
+
+```
+
+### Rbenv
 -  Ruby version manager
   -  [Read more](https://github.com/rbenv/rbenv)
 
@@ -60,6 +99,8 @@ brew install rbenv
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+-  [`.zshrc` dotfile]()
 
 #### Git
 
@@ -85,6 +126,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 -  [Memory Clean]()
 -  [Alfred 2]()
 -  [Sublime]()
+
+Download all of the things!
+```bash
+
+```
 
 
 ## Sublime Setup
