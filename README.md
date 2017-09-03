@@ -1,6 +1,6 @@
 <h1 align="center">Mac Development Setup</h1>
 
-> A utility for setting up a new mac for software development 💻
+<h3 align="center">A utility for setting up a new mac for software development 💻</h3>
 
 ----
 
@@ -190,9 +190,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 Download all of the things!
 ```bash
-curl -o 
-```
 
+```
 
 ## Text Editor Setup
 
