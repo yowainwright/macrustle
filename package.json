@@ -1,0 +1,30 @@
+{
+  "name": "mac-setup",
+  "version": "0.0.1",
+  "description": "A useful tool for basic mac setup",
+  "main": "README.md",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yowainwright/mydots.git"
+  },
+  "keywords": [
+    "setup",
+    "os-setup",
+    "mac",
+    "development-setup",
+    "development"
+  ],
+  "author": "Jeff Wainwright <jeffry.in> (yowainwright@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yowainwright/mydots/issues"
+  },
+  "homepage": "https://github.com/yowainwright/mydots#readme",
+  "devDependencies": {
+    "chalk": "^2.1.0",
+    "pre-commit": "^1.2.2"
+  }
+}
