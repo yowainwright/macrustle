@@ -1,6 +1,6 @@
 <h1 align="center">Mac Rustle 💻💨</h1>
 
-<h5 align="center">A utility for rustling up the things needed for software development on a mac</h5>
+<h5 align="center">A utility for setting up a new mac for software development 💻</h3>
 
 ----
 
@@ -190,9 +190,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 Download all of the things!
 ```bash
-curl -o 
-```
 
+```
 
 ## Text Editor Setup
 
