@@ -1,6 +1,6 @@
 <h1 align="center">Mac Rustle 💻💨</h1>
 
-<h5 align="center">A utility for setting up a new mac for software development 💻</h3>
+<h5 align="center">A utility tool for setting up an apple computer for software development</h3>
 
 ----
 
