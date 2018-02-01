@@ -1,10 +1,10 @@
-<h1 align="center">Mac Development Setup</h1>
+<h1 align="center">Mac Rustle 💻💨</h1>
 
-<h3 align="center">A utility for setting up a new mac for software development 💻</h3>
+<h5 align="center">A utility tool for setting up an apple computer for software development</h3>
 
 ----
 
-**Objective:** it can take time to setup a new mac for software development. This utility supports general setup for development. Where _Mac Development_ differs from other tools for new Mac Setup, is that doesn't assume what is needed and offers support. 
+It can take time to setup a new mac for software development. Mac Rustle supports setting up a Mac for development. Mac Rustle differs from similar tools because it doesn't assume what you need and offers support to help you get what you want. 
 
 ## General Utility Notes
 
