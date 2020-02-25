@@ -22,8 +22,11 @@ It can take time to setup a new mac for software development. Mac Rustle support
 ### Install Xcode
 
 -  Xcode is a tool for development on Mac OS
+
 ```bash
+
 xcode-select --install
+
 ```
 
 Mac Development setup assumes Xcode will (at some point) be part of a software development process.
@@ -35,16 +38,22 @@ To build everything step-by-step, read below or—build all thing things!
 To install [homebrew](brew.sh), [node](), [nvm](), [rbenv](), running this script!
 
 ```bash
+
 # homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # cask
 brew install cask
+
 # mas
 brew install mas
+
 # node
 brew install node
+
 # nvm 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+
 ```
 
 ### Homebrew
@@ -53,6 +62,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
   -  A helpful utility for installing helpful utilities, [read more](https://brew.sh/)
 
 ```bash
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ```
@@ -62,6 +72,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 -  A tool for installing Mac Apps via Terminal
 
 ```bash
+
 brew install cask
 
 ```
@@ -71,7 +82,9 @@ brew install cask
 -  A tool for installing Mac Store Apps via a shell
 
 ```bash
+
 brew install mas
+
 ```
 
 
@@ -81,7 +94,9 @@ brew install mas
   -  used as a server and for utility, [read more](https://nodejs.org/en/)
 
 ```bash
+
 brew install node
+
 ```
 
 ### Nvm
@@ -90,6 +105,7 @@ brew install node
   -  [Read more](https://github.com/creationix/nvm/blob/master/README.md)
 
 ```bash
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 ```
@@ -104,8 +120,10 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 
 Git can be setup in multiple ways, 1 way is via Homebrew
 ```bash
+
 # via Homebrew
 brew install git
+
 ```
 
 ### Git personal settings [general requirements](https://help.github.com/articles/set-up-git/)
@@ -116,7 +134,9 @@ General when working with git and/or Github, a SSH Key and associated email are 
 
 
 ### SSH Key
+
 ```bash
+
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ```
@@ -156,6 +176,7 @@ To build everything step-by-step, read below ro build all thing things by runnin
   -  [Read more](https://github.com/rbenv/rbenv)
 
 ```bash
+
 brew install rbenv
 
 ```
@@ -177,28 +198,19 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ```
 
-
-
 ## Applications
 
 -  [Spotify](https://www.spotify.com/download/mac)
 -  [Evernote]()
 -  [Skitch]()
 -  [Memory Clean]()
--  [Alfred 2]()
+-  [Alfred 4]()
 -  [Sublime]()
 
 Download all of the things!
+
 ```bash
 
 ```
 
-## Text Editor Setup
-
-### Sublime Setup
-
-
-
 ## Notes
-
-
