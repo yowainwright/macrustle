@@ -25,6 +25,9 @@
   "homepage": "https://github.com/yowainwright/mydots#readme",
   "devDependencies": {
     "chalk": "^2.1.0",
-    "pre-commit": "^1.2.2"
+    "markdown-spellcheck": "^1.3.1",
+    "markdownlint": "^0.19.0",
+    "pre-commit": "^1.2.2",
+    "write-good": "^1.0.2"
   }
 }
