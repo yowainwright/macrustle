@@ -1,17 +1,19 @@
 # MacRustle 💻💨
 
-> A utility tool for setting up an apple computer for JavaScript software development
+> A useful README for setting up a mac for JavaScript software development.
+> v0.0.1 This project is currently in progress (04.13.20)
 
 ---
 
-> v0.0.1 This project is currently in progress (04.)
-
-It can take time to setup a new mac for JavaScript software development. MacRustle supports setting up a Mac for this. MacRustle differs from similar tools because it doesn't assume what you need and offers support to help you get what you want.
+It can take time to setup a new mac for JavaScript software development.
+MacRustle documents this process to help with this process.
+It differs from similar projects because it doesn't assume what's needed
+and offers support to help get what's wanted.
 
 ## General Utility Notes
 
-- This suite is generally built
-- Read carefully before using all in on commands.
+- It is generally written
+- Read carefully before following notes
 - File an [issue](/issues) if you have a problem or idea
 
 ---
@@ -127,7 +129,7 @@ git config --global core.editor <code_editor>
 
 ```
 
-#### Nvm
+#### NVM
 
 - Node version manager
 - [Read more](https://github.com/creationix/nvm/blob/master/README.md)
@@ -184,17 +186,6 @@ To build everything step-by-step, read below ro build all thing things by runnin
 
 ```
 
-### Rbenv
-
-- Ruby version manager
-- [Read more](https://github.com/rbenv/rbenv)
-
-```bash
-
-brew install rbenv
-
-```
-
 #### ZSH
 
 - Another Terminal Shell with a bunch of other features
@@ -205,26 +196,3 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 
 - [`.zshrc` dotfile]()
-
-#### All at once
-
-```bash
-
-```
-
-## Applications
-
-- [Spotify](https://www.spotify.com/download/mac)
-- [Evernote]()
-- [Skitch]()
-- [Memory Clean]()
-- [Alfred 4]()
-- [Sublime]()
-
-Download all of the things!
-
-```bash
-
-```
-
-## Notes
