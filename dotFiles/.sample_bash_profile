@@ -1,8 +1,6 @@
-#----------------#
-#       ⚡️        #
-# Bash Profile   #
-#		    ⚡️  	     #
-#----------------#
+#----------------       
+# Bash Profile 
+#----------------
 
 #  .bash_profile is the standard profile for bash
 #  the .bash_profile may need to be referenced it is no longer used as the default shell
