@@ -1,10 +1,13 @@
 {
-  "name": "mac-setup",
+  "name": "macrustle",
   "version": "0.0.1",
-  "description": "A useful tool for basic mac setup",
+  "description": "A useful README for setting up a mac for JavaScript software development 💻💨",
   "main": "README.md",
   "scripts": {
-    "test": "test"
+    "markdownlint": "",
+    "prettier": "",
+    "test": "",
+    "test:ci": ""
   },
   "repository": {
     "type": "git",
@@ -14,10 +17,14 @@
     "setup",
     "os-setup",
     "mac",
+    "new mac",
+    "new computer",
     "development-setup",
-    "development"
+    "development",
+    "javascript",
+    "javascript development setup"
   ],
-  "author": "Jeff Wainwright <jeffry.in> (yowainwright@gmail.com)",
+  "author": "Jeff Wainwright <https://jeffry.in> (yowainwright@gmail.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yowainwright/mydots/issues"
@@ -26,8 +33,10 @@
   "devDependencies": {
     "chalk": "^2.1.0",
     "markdown-spellcheck": "^1.3.1",
-    "markdownlint": "^0.19.0",
+    "markdownlint": "^0.20.1",
+    "markdownlint-cli": "^0.22.0",
     "pre-commit": "^1.2.2",
+    "prettier": "^2.0.4",
     "write-good": "^1.0.2"
   }
 }
