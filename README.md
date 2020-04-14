@@ -1,12 +1,19 @@
 # MacRustle 💻💨
 
 > Setup instructions "rustled up" for coding on a Mac.
-> v0.0.1 This project is currently in progress (04.13.20)
+>
+> **V0.0.1** This project is currently in progress (04.13.20)
 
 ---
 
 It can take time to setup a new mac for JavaScript development.
 MacRustle provides instructions to help with this process.
+
+---
+
+[General](#general-utility-notes) | [Standard Installations](#standard-development-package-installation-instructions) | [Iterm](#iterm) | [ZSH](#zsh) | [XCode](#install-xcode) | [Package Managers](#install-version-managers-and-package-managers) | [Homebrew](#homebrew) | [Node](#node) | [NVM](#nvm) | [Git](#setup-git) | [Cask](#cask) | [Mas](#mas) | [Quick Setup](#quick-setup)
+
+---
 
 ## General Utility Notes
 
@@ -16,13 +23,70 @@ MacRustle provides instructions to help with this process.
 
 ---
 
-## Standard development package installations
+**note:** This document has repetitive links and content to ensure that
+steps are not missed and are considered appropriately.
+
+---
+
+## Standard development package installation instructions
 
 Common development installations.
+Listed below are key steps for the setup process.
+
+---
+
+**Note:** Each step should be step you've done before. Not regularly, but before.
+If these steps feel very uncomfortable to you,
+this list of instruction might not be yours to follow.
+
+---
+
+1. Download and install your preferred commandline tool.
+   - For this document, iTerm with zsh are used.
+   - [Iterm download site](https://www.iterm2.com/)
+   - [zsh download website](https://ohmyz.sh/)
+2. Install [Xcode](https://developer.apple.com/xcode/)
+3. Install [Homebrew](brew.sh)
+4. Using Homebrew:
+   1. Install [Node](https://nodejs.org/en/about/)
+   2. Install [Git](https://git-scm.com/)
+
+---
+
+### Download a Commandline app
+
+Download and setup your preferred commandline app.
+For this document, [Iterm](https://www.iterm2.com/downloads.html)
+with [ZSH](https://ohmyz.sh/) is recommended.
+
+- [Iterm Downloads](ttps://www.iterm2.com/downloads.html)
+
+---
+
+#### Iterm
+
+Download Iterm, a replacement commandline tool for Mac.
+
+#### ZSH
+
+A [Terminal Shell](http://ohmyz.sh/) with useful features and a powerful plugin ecosystem.
+
+```bash
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+```
+
+Useful `bash`, and `zsh` configuration dot files _after_ downloading Items
+
+- [`.bash_profile`dotfile](/dot-files/.sample_bash_profile)
+- [`.bashrc` dotfile](/dot-files/.sample_bashrc)
+
+* [`.zshrc` dotfile](/dot-files/.sample_zshrc)
 
 ### Install Xcode
 
-Xcode is a tool for development on Mac OS.
+[Xcode](https://developer.apple.com/xcode/) is a tool for development on Mac OS.
 
 ```bash
 
@@ -30,11 +94,13 @@ xcode-select --install
 
 ```
 
-Development with a Mac will, at some point require Xcode.
-
 ### Install Version Managers and Package Managers
 
 Install package managers. First [Homebrew](brew.sh).
+
+### Homebrew
+
+Install Homebrew.
 
 ```bash
 
@@ -55,7 +121,8 @@ brew install Node
 
 ### NVM
 
-Use NVM to manage Node version used within each environment. First, install it.
+Use [NVM](https://github.com/nvm-sh/nvm) to manage Node version
+used within each environment. First, install it.
 
 ```bash
 
@@ -65,7 +132,8 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 
 ### Setup Git
 
-Git can be setup in multiple ways. One way to setup Git is via Homebrew.
+Git can be setup in multiple ways.
+One way to setup Git is via Homebrew.
 
 ```bash
 
@@ -88,7 +156,9 @@ git config --global core.editor <code_editor>
 
 ```
 
-When working with a git client, like Github, a [SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) and associated email are needed.
+When working with a git client, like Github,
+a [SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+and associated email are needed.
 
 #### Setup a personal SSH Key
 
@@ -104,7 +174,7 @@ Listed below are **highly recommended** Homebrew installs.
 
 #### Cask
 
-install Mac Apps via Terminal.
+[Cask](https://github.com/Homebrew/homebrew-cask) installs Mac Apps via commandline.
 
 ```bash
 
@@ -114,7 +184,7 @@ brew install cask
 
 #### Mas
 
-installing Mac Store Apps via a shell.
+[Mas](https://github.com/mas-cli/mas) installs Mac Store Apps via commandline.
 
 ```bash
 
@@ -122,23 +192,6 @@ brew install mas
 
 ```
 
-### Shell Profile(s) (post standard installations)
+## Quick Setup
 
-Useful `bash` configuration _after_ installing standard development packages
-
-- [`.bash_profile`dotfile](/dot-files/.sample_bash_profile)
-- [`.bashrc` dotfile](/dot-files/.sample_bashrc)
-
----
-
-#### ZSH
-
-A [Terminal Shell](http://ohmyz.sh/) with useful features and a powerful plugin ecosystem.
-
-```bash
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-```
-
-- [`.zshrc` dotfile](/dot-files/.sample_zshrc)
+This step is in it's `@todo` phase. (4/14/2020)
