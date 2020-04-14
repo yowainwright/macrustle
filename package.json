@@ -4,10 +4,10 @@
   "description": "A useful README for setting up a mac for JavaScript software development 💻💨",
   "main": "README.md",
   "scripts": {
-    "markdownlint": "",
-    "prettier": "",
-    "test": "",
-    "test:ci": ""
+    "format": "prettier --check .",
+    "markdownlint": "markdownlint README.md",
+    "test": "yarn markdownlint && yarn format --fix",
+    "test:ci": "yarn markdownlint && yarn format"
   },
   "repository": {
     "type": "git",
@@ -37,6 +37,7 @@
     "markdownlint-cli": "^0.22.0",
     "pre-commit": "^1.2.2",
     "prettier": "^2.0.4",
+    "spellchecker-cli": "^4.2.0",
     "write-good": "^1.0.2"
   }
 }
