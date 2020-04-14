@@ -1,30 +1,28 @@
 # MacRustle 💻💨
 
-> A useful README for setting up a mac for JavaScript software development.
+> Setup instructions "rustled up" for coding on a Mac.
 > v0.0.1 This project is currently in progress (04.13.20)
 
 ---
 
-It can take time to setup a new mac for JavaScript software development.
-MacRustle documents this process to help with this process.
-It differs from similar projects because it doesn't assume what's needed
-and offers support to help get what's wanted.
+It can take time to setup a new mac for JavaScript development.
+MacRustle provides instructions to help with this process.
 
 ## General Utility Notes
 
 - It is generally written
-- Read carefully before following notes
+- Read carefully before following/using instructions
 - File an [issue](/issues) if you have a problem or idea
 
 ---
 
 ## Standard development package installations
 
-> Common development installations
+Common development installations.
 
 ### Install Xcode
 
-- Xcode is a tool for development on Mac OS
+Xcode is a tool for development on Mac OS.
 
 ```bash
 
@@ -32,89 +30,50 @@ xcode-select --install
 
 ```
 
-Mac Development setup assumes Xcode will (at some point) be part of a software development process.
+Development with a Mac will, at some point require Xcode.
 
 ### Install Version Managers and Package Managers
 
-To build everything step-by-step, read below or—build all thing things!
-
-To install [homebrew](brew.sh), [node](https://nodejs.org/en/), [nvm](https://github.com/nvm-sh/nvm), running this script!
+Install package managers. First [Homebrew](brew.sh).
 
 ```bash
 
 # homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# cask
-brew install cask
+```
 
-# mas
-brew install mas
+### Node
 
-# node
-brew install node
+Use Homebrew to install [Node](https://nodejs.org/en/).
 
-# nvm
+```bash
+
+brew install Node
+
+```
+
+### NVM
+
+Use NVM to manage Node version used within each environment. First, install it.
+
+```bash
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
 ```
 
-### Homebrew
+### Setup Git
 
-- Loosely, a Mac OS package Manager
-- A helpful utility for installing helpful utilities, [read more](https://brew.sh/)
-
-```bash
-
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-```
-
-#### Brews to install
-
-Listed below are **highly recommended** Homebrew installs.
-
-#### Cask
-
-- A tool for installing Mac Apps via Terminal
+Git can be setup in multiple ways. One way to setup Git is via Homebrew.
 
 ```bash
 
-brew install cask
-
-```
-
-#### Mas
-
-- A tool for installing Mac Store Apps via a shell
-
-```bash
-
-brew install mas
-
-```
-
-#### Node
-
-- Serverside Javascript
-- used as a server and for utility, [read more](https://nodejs.org/en/)
-
-```bash
-
-brew install node
-
-```
-
-## Git intallation
-
-Git can be setup in multiple ways, 1 way is via Homebrew
-
-```bash
-
-# via Homebrew
 brew install git
 
 ```
+
+#### Setup Git Globals
 
 Setup standard git defaults
 
@@ -129,28 +88,9 @@ git config --global core.editor <code_editor>
 
 ```
 
-#### NVM
+When working with a git client, like Github, a [SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) and associated email are needed.
 
-- Node version manager
-- [Read more](https://github.com/creationix/nvm/blob/master/README.md)
-
-```bash
-
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-
-```
-
-## Install a general Git setup
-
-> [Git](https://git-scm.com/book/en/v2) is a tool for software management
-
-### Git personal settings [general requirements](https://help.github.com/articles/set-up-git/)
-
-General when working with git and/or Github, a SSH Key and associated email are needed.
-
-- [SSH Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-
-### SSH Key
+#### Setup a personal SSH Key
 
 ```bash
 
@@ -158,41 +98,47 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 ```
 
-### Automated SSH Key setup
+### Other Brews to optionally install
+
+Listed below are **highly recommended** Homebrew installs.
+
+#### Cask
+
+install Mac Apps via Terminal.
 
 ```bash
+
+brew install cask
+
+```
+
+#### Mas
+
+installing Mac Store Apps via a shell.
+
+```bash
+
+brew install mas
 
 ```
 
 ### Shell Profile(s) (post standard installations)
 
-Useful `bash` configuration _after_ installing Standard development packages
+Useful `bash` configuration _after_ installing standard development packages
 
-- [`.bash_profile`dotfile](/blob/master/dotFiles/.bash_profile)
-
-- [`.bashrc` dotfile](/blob/master/dotFiles/.bashrc)
+- [`.bash_profile`dotfile](/dot-files/.sample_bash_profile)
+- [`.bashrc` dotfile](/dot-files/.sample_bashrc)
 
 ---
 
-## Opinionated development package management installations
-
-More opinionated tools for modern software development
-
-### Build it
-
-To build everything step-by-step, read below ro build all thing things by running this script!
-
-```bash
-
-```
-
 #### ZSH
 
-- Another Terminal Shell with a bunch of other features
-- [Read more about zsh—Oh My ZSH](http://ohmyz.sh/)
+A [Terminal Shell](http://ohmyz.sh/) with useful features and a powerful plugin ecosystem.
 
 ```bash
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 ```
 
-- [`.zshrc` dotfile]()
+- [`.zshrc` dotfile](/dot-files/.sample_zshrc)
