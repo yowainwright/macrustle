@@ -30,8 +30,7 @@ that steps are not missed and are considered appropriately.
 
 ## Standard development package installation instructions
 
-Common development installations.
-
+Common development installations.<br />
 Listed below are key steps for the setup process.
 
 ---
