@@ -6,7 +6,7 @@
 
 ---
 
-It can take time to setup a new mac for JavaScript development.
+It can take time to setup a new mac for JavaScript development.<br />
 MacRustle provides instructions to help with this process.
 
 ---
@@ -23,19 +23,19 @@ MacRustle provides instructions to help with this process.
 
 ---
 
-**note:** This document has repetitive links and content to ensure that
-steps are not missed and are considered appropriately.
+**Note:** This document has repetitive links and content to ensure<br />
+that steps are not missed and are considered appropriately.
 
 ---
 
 ## Standard development package installation instructions
 
-Common development installations.
+Common development installations.<br />
 Listed below are key steps for the setup process.
 
 ---
 
-**Note:** Each step should be step you've done before. Not regularly, but before.
+**Note:** Each step should be step you've done before. Not regularly, but before.<br />
 If these steps feel very uncomfortable to you,
 this list of instruction might not be yours to follow.
 
@@ -55,7 +55,7 @@ this list of instruction might not be yours to follow.
 
 ### Download a Commandline app
 
-Download and setup your preferred commandline app.
+Download and setup your preferred commandline app.<br />
 For this document, [Iterm](https://www.iterm2.com/downloads.html)
 with [ZSH](https://ohmyz.sh/) is recommended.
 
@@ -122,7 +122,7 @@ brew install Node
 ### NVM
 
 Use [NVM](https://github.com/nvm-sh/nvm) to manage Node version
-used within each environment. First, install it.
+used within each environment.
 
 ```bash
 
@@ -132,7 +132,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | b
 
 ### Setup Git
 
-Git can be setup in multiple ways.
+Git can be setup in multiple ways.<br />
 One way to setup Git is via Homebrew.
 
 ```bash
@@ -194,4 +194,7 @@ brew install mas
 
 ## Quick Setup
 
-This step is in it's `@todo` phase. (4/14/2020)
+1. Open ITerm (or another Shell).
+2. Copy and paste the following to your desired folder path `git clone git@github.com:yowainwright/macrustle.git`
+3. Navigate to the macrustle folder, in example, `cd macrustle`. Type `./bin/macrustle.sh`. Press **return**.
+4. Follow the prompts.💨
