@@ -4,8 +4,8 @@
 
 ---
 
-It can take time to setup a new mac for JavaScript development.<br />
-MacRustle provides instructions to help with this process.
+It can take time to setup a new mac for development.<br />
+MacRustle provides super basic instructions to help with this process.
 
 ---
 
