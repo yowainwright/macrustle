@@ -45,8 +45,8 @@ this list of instruction might not be yours to follow.
    - For this document, iTerm with zsh are used.
    - [Iterm download site](https://www.iterm2.com/)
    - [zsh download website](https://ohmyz.sh/)
-2. Install [Xcode](https://developer.apple.com/xcode/)
-3. Install [Homebrew](brew.sh)
+2. Install [Homebrew](brew.sh)
+3. Install [Xcode](https://developer.apple.com/xcode/)
 4. Using Homebrew:
    1. Install [Node](https://nodejs.org/en/about/)
    2. Install [Git](https://git-scm.com/)
