@@ -196,6 +196,6 @@ brew install mas
 ## Quick Setup
 
 1. Open ITerm (or another Shell).
-2. Copy and past to your desired folder path `git@github.com:yowainwright/macrustle.git`
-3. Type `./bin/macrustle.sh` and hit **return**.
-4. Follow the prompts.
+2. Copy and paste the following to your desired folder path `git clone git@github.com:yowainwright/macrustle.git`
+3. Navigate to the macrustle folder, in example, `cd macrustle`. Type `./bin/macrustle.sh`. Press **return**.
+4. Follow the prompts.💨
