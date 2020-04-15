@@ -85,22 +85,27 @@ function install_node_tools  {
 echo "This MacRustle bash script is about to \"rustle\" up some configurations for your new mac"
 
 
-read -r -p "Ready? [y/n] " ready
-case $ready in
-  y) 
-    echo "Okay..."
-    install_zsh
-    install_xcode
-    install_homebrew
-    install_node_tools
-    echo "If no warnings were emitted, lets assume the new mac is one big step closer to being setup!"
-    ;;
-  n) 
-    echo "No MacRustling!"
-    exit 1
-    ;;
-  *)
-    echo "Whoops! Please type [y/n]."
-    ;;
+function ready { 
+  read -r -p "Ready? [y/n] " ready
+  case $ready in
+    y) 
+      echo "Okay..."
+      install_zsh
+      install_xcode
+      install_homebrew
+      install_node_tools
+      echo "If no warnings were emitted, lets assume the new mac is one big step closer to being setup!"
+      ;;
+    n) 
+      echo "No MacRustling!"
+      exit 1
+      ;;
+    *)
+      echo "Whoops! Please type [y/n]."
+      ready
+      ;;
 
-esac
+  esac
+}
+
+ready
