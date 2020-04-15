@@ -1,6 +1,6 @@
 {
   "name": "macrustle",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A useful README for setting up a mac for JavaScript software development 💻💨",
   "main": "README.md",
   "scripts": {

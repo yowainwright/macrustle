@@ -1,8 +1,6 @@
 # MacRustle 💻💨
 
 > Setup instructions "rustled up" for coding on a Mac.
->
-> **V0.0.1** This project is currently in progress (04.13.20)
 
 ---
 
@@ -11,7 +9,7 @@ MacRustle provides instructions to help with this process.
 
 ---
 
-[General](#general-utility-notes) | [Standard Installations](#standard-development-package-installation-instructions) | [Iterm](#iterm) | [ZSH](#zsh) | [XCode](#install-xcode) | [Package Managers](#install-version-managers-and-package-managers) | [Homebrew](#homebrew) | [Node](#node) | [NVM](#nvm) | [Git](#setup-git) | [Cask](#cask) | [Mas](#mas) | [Quick Setup](#quick-setup)
+[Quick Setup](#quick-setup) | [General](#general-utility-notes) | [Standard Installations](#standard-development-package-installation-instructions) | [Iterm](#iterm) | [ZSH](#zsh) | [XCode](#install-xcode) | [Package Managers](#install-version-managers-and-package-managers) | [Homebrew](#homebrew) | [Node](#node) | [NVM](#nvm) | [Git](#setup-git) | [Cask](#cask) | [Mas](#mas)
 
 ---
 
@@ -198,3 +196,4 @@ brew install mas
 2. Copy and paste the following to your desired folder path `git clone git@github.com:yowainwright/macrustle.git`
 3. Navigate to the macrustle folder, in example, `cd macrustle`. Type `./bin/macrustle.sh`. Press **return**.
 4. Follow the prompts.💨
+5. **Quick setup** ends at installing `git`. To config git and an SSH Key, [start here](#setup-git-globals).
