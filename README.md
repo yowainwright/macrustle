@@ -15,8 +15,8 @@ MacRustle provides super basic instructions to help with this process.
 
 ## General Utility Notes
 
-- It is generally written
-- Read carefully before following/using instructions
+- Generally written
+- Read before following/using instructions
 - File an [issue](/issues) if you have a problem or idea
 
 ---
@@ -77,10 +77,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 Useful `bash`, and `zsh` configuration dot files _after_ downloading Items
 
-- [`.bash_profile`dotfile](/dot-files/.sample_bash_profile)
-- [`.bashrc` dotfile](/dot-files/.sample_bashrc)
+- [`.bash_profile`dotfile](/dotfiles/.sample_bash_profile)
+- [`.bashrc` dotfile](/dotfiles/.sample_bashrc)
 
-* [`.zshrc` dotfile](/dot-files/.sample_zshrc)
+* [`.zshrc` dotfile](/dotfiles/.sample_zshrc)
 
 ### Install Xcode
 

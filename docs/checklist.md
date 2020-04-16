@@ -1,5 +1,16 @@
 # Checklist ✅
 
-The follow list provides ensures you don't miss a step of setting up your mac!
+The following list provided ensures you don't miss a step of setting up your mac!
 
-This step is in it's `@todo` phase. (4/14/2020)
+- [ ] **[Download Terminal](../README.md#iterm):** (Iterm recommended)
+- [ ] **[Download ZSH](../README.md#zsh):** (recommended)
+- [ ] **[Download XCode](../README.md#install-xcode)**
+- [ ] **[Download Homebrew](../README.md#node)**
+- [ ] **[Download Node](../README.md#node)**
+- [ ] **[Download NVM](../README.md#nvm)**
+- [ ] **[Download Git](../README.md#setup-git)**
+- [ ] **[Setup Git](../README.md#setup-git)**
+
+---
+
+Other useful config will be added momentarily.

@@ -1,0 +1,4 @@
+{
+  "plugins": ["prettier", "json", "markdown"],
+  "extends": ["plugin:prettier/recommended"]
+}
