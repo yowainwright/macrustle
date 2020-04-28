@@ -67,9 +67,10 @@ Download Iterm, a replacement commandline tool for Mac.
 
 #### ZSH
 
-**NOTE**: If you are running on MacOS Catalina (10.15.x) - You can skip this step, as `zsh` comes default with this version of MacOS
-
 A [Terminal Shell](http://ohmyz.sh/) with useful features and a powerful plugin ecosystem.
+
+**Note**: If you are running on MacOS Catalina (10.15.x), this step is done for you. 
+`zsh` comes default with MacOS Catalina.
 
 ```bash
 
