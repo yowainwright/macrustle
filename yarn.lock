@@ -3851,10 +3851,10 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.5.tgz#3694b5804567a458d3c8045842a6358632f62654"
   integrity sha512-J+FWzZoynJEXGphVIS+XEh3kFSjZX/1i9gFBaWQcB+/tmpe2qUsSBABpcxqxnAxFdiUFEgAX1bjYGQvIZmoz9Q==
 
-spellchecker-cli@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-4.2.0.tgz#27ef2b334cb6c902e9e7985ab184894fca1ed96d"
-  integrity sha512-RAKoQJLkgFmQxywcofsSdkFf0dkr9CHZCH0p7cVz5wNJMxthh4pPNkzkMhGIHJjeY1U1TkCPbCkzyNODgYsVHQ==
+spellchecker-cli@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/spellchecker-cli/-/spellchecker-cli-4.3.0.tgz#8cfe63795dc2f4faced1ba1bdc96aafb9aa85356"
+  integrity sha512-FmRnOe5AXounHvw3W8S47Hb0GITT+cuV7WlLV0duwR+H5OBsSUrqDrOGJx2n8uhukLKiG/4ccNzFHmikV4dRsg==
   dependencies:
     chalk "^2.4.2"
     command-line-args "^5.1.1"
@@ -3879,6 +3879,7 @@ spellchecker-cli@^4.2.0:
     retext-spell "^2.4.1"
     retext-syntax-mentions "^1.1.6"
     retext-syntax-urls "^1.0.2"
+    toml "^3.0.0"
     unist-util-visit "^1.4.1"
     vfile "^3.0.1"
     vfile-reporter "^5.1.2"
@@ -4193,6 +4194,11 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     extend-shallow "^3.0.2"
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
+
+toml@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/toml/-/toml-3.0.0.tgz#342160f1af1904ec9d204d03a5d61222d762c5ee"
+  integrity sha512-y/mWCZinnvxjTKYhJ+pYxwD0mRLVvOtdS2Awbgxln6iEnt4rk0yBxeSBHkGJcPucRiG0e55mwWp+g/05rsrd6w==
 
 too-wordy@^0.2.2:
   version "0.2.2"
