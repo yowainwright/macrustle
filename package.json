@@ -65,7 +65,7 @@
     "lint-staged": "^10.2.9",
     "prettier": "^2.0.5",
     "spellchecker-cli": "^4.4.0",
-    "write-good": "^1.0.2"
+    "write-good": "^1.0.3"
   },
   "config": {
     "commitizen": {
