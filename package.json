@@ -56,7 +56,7 @@
     "@commitlint/prompt": "^12.1.4",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.1.1",
-    "eslint": "^7.14.0",
+    "eslint": "^7.27.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-markdown": "^1.0.2",
