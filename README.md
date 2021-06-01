@@ -4,6 +4,8 @@
 
 ---
 
+**Note:** this documentation has not been updated for the new **M1 Chip**. It will be updates soon (06.01.21). 
+
 It can take time to setup a new mac for development.<br />
 MacRustle provides super basic instructions to help with this process.
 
