@@ -58,7 +58,7 @@
     "conventional-changelog-cli": "^2.1.1",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-json": "^3.0.0",
     "eslint-plugin-markdown": "^1.0.2",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
