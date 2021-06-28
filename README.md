@@ -67,7 +67,7 @@ with [ZSH](https://ohmyz.sh/) is recommended.
 
 Download Iterm, a replacement commandline tool for Mac.
 
-#### ZSH
+##### ZSH
 
 A [Terminal Shell](http://ohmyz.sh/) with useful features and a powerful plugin ecosystem.
 
@@ -80,12 +80,23 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ```
 
-Useful `bash`, and `zsh` configuration dot files _after_ downloading Items
+---
 
-- [`.bash_profile`dotfile](/dotfiles/.sample_bash_profile)
-- [`.bashrc` dotfile](/dotfiles/.sample_bashrc)
+##### Power tips ⚡️
 
-* [`.zshrc` dotfile](/dotfiles/.sample_zshrc)
+Setup [natural typing](https://apple.stackexchange.com/questions/154292/iterm-going-one-word-backwards-and-forwards#answer-293988)
+
+- Go to `preferences > profiles > keys`
+- Click `presets`
+- Select `natural typing`
+
+You can now move your cursor like in all other apps! 💪
+
+Setup [autocomplete](https://github.com/zsh-users/zsh-autosuggestions)
+
+- `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+- add `zsh-autocompletion` to plugins within your `.zshrc` config
+
 
 ### Install Xcode
 
