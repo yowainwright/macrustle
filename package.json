@@ -1,6 +1,6 @@
 {
   "name": "macrustle",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Setup instructions \"rustled up\" for coding on a Mac. 💻💨",
   "main": "README.md",
   "bin": {
