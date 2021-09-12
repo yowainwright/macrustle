@@ -1,6 +1,6 @@
 {
   "name": "macrustle",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Setup instructions \"rustled up\" for coding on a Mac. 💻💨",
   "main": "README.md",
   "bin": {
@@ -24,10 +24,7 @@
     "commit:retry": "git-cz --retry",
     "commitmsg": "commitlint -e",
     "grammar": "write-good *.md --no-passive",
-    "lint": "eslint . --ext '.json,.md' --cache",
-    "spelling": "spellchecker --files 'docs/*.md' 'README.md'",
-    "test": "yarn lint --fix",
-    "test:ci": "yarn lint"
+    "spelling": "spellchecker --files 'docs/*.md' 'README.md'"
   },
   "repository": {
     "type": "git",
