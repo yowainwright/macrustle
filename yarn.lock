@@ -1315,13 +1315,13 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-plugin-json@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-json/-/eslint-plugin-json-3.0.0.tgz#49599a2412868604117be71f2b9eb29e80ce06ee"
-  integrity sha512-7qoY5pbzBLEttJWy4/cDtULK3EKglgIwfXk5Yqp3StJaQ4Bu4Jmp0n2fJN5vBe/hLGaECupq3edn1j/k7O0bFA==
+eslint-plugin-json@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-json/-/eslint-plugin-json-3.1.0.tgz#251108ba1681c332e0a442ef9513bd293619de67"
+  integrity sha512-MrlG2ynFEHe7wDGwbUuFPsaT2b1uhuEFhJ+W1f1u+1C2EkXmTYJp4B1aAdQQ8M+CC3t//N/oRKiIVw14L2HR1g==
   dependencies:
     lodash "^4.17.21"
-    vscode-json-languageservice "^4.0.2"
+    vscode-json-languageservice "^4.1.6"
 
 eslint-plugin-markdown@^2.2.1:
   version "2.2.1"
@@ -4684,13 +4684,12 @@ vorpal@^1.12.0:
     strip-ansi "^3.0.0"
     wrap-ansi "^2.0.0"
 
-vscode-json-languageservice@^4.0.2:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/vscode-json-languageservice/-/vscode-json-languageservice-4.1.4.tgz#c83d3d812f8f17ab525724c611d8ff5e8834fc84"
-  integrity sha512-/UqaE58BVFdePM9l971L6xPRLlCLNk01aovf1Pp9hB/8pytmd2s9ZNEnS1JqYyQEJ1k5/fEBsWOdhQlNo4H7VA==
+vscode-json-languageservice@^4.1.6:
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/vscode-json-languageservice/-/vscode-json-languageservice-4.1.8.tgz#397a39238d496e3e08a544a8b93df2cd13347d0c"
+  integrity sha512-0vSpg6Xd9hfV+eZAaYN63xVVMOTmJ4GgHxXnkLCh+9RsQBkWKIghzLhW2B9ebfG+LQQg8uLtsQ2aUKjTgE+QOg==
   dependencies:
     jsonc-parser "^3.0.0"
-    minimatch "^3.0.4"
     vscode-languageserver-textdocument "^1.0.1"
     vscode-languageserver-types "^3.16.0"
     vscode-nls "^5.0.0"
