@@ -49,7 +49,7 @@
   "homepage": "https://github.com/yowainwright/mydots#readme",
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/config-conventional": "^15.0.0",
     "@commitlint/prompt": "^12.1.4",
     "commitizen": "^4.2.4",
     "conventional-changelog-cli": "^2.1.1",
@@ -60,7 +60,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.1.2",
-    "prettier": "^2.4.0",
+    "prettier": "^2.5.0",
     "spellchecker-cli": "^4.4.0",
     "write-good": "^1.0.8"
   },
