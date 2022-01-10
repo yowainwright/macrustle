@@ -48,7 +48,7 @@
   },
   "homepage": "https://github.com/yowainwright/mydots#readme",
   "devDependencies": {
-    "@commitlint/cli": "^9.1.2",
+    "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^15.0.0",
     "@commitlint/prompt": "^12.1.4",
     "commitizen": "^4.2.4",
