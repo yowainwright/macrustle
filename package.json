@@ -60,7 +60,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^12.4.0",
-    "prettier": "^2.6.1",
+    "prettier": "^2.6.2",
     "spellchecker-cli": "^4.9.1",
     "write-good": "^1.0.8"
   },
