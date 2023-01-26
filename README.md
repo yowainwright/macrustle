@@ -4,7 +4,7 @@
 
 ---
 
-**Note:** this documentation has not been updated for the new **M1 Chip**. It will be updates soon (06.01.21). 
+**Note:** this documentation has not been updated for the new **M1 Chip**. It will be updates soon (06.01.21).
 
 It can take time to setup a new mac for development.<br />
 MacRustle provides super basic instructions to help with this process.
@@ -42,12 +42,10 @@ this list of instruction might not be yours to follow.
 ---
 
 1. Download and install your preferred commandline tool.
-   - For this document, iTerm with zsh are used.
-   - [Iterm download site](https://www.iterm2.com/)
-   - [zsh download website](https://ohmyz.sh/)
-2. Install [Homebrew](brew.sh)
-3. Install [Xcode](https://developer.apple.com/xcode/)
-4. Using Homebrew:
+   - For this document, [Iterm](https://www.iterm2.com/) with [zsh](https://ohmyz.sh/) are used.
+1. Install [Homebrew](brew.sh)
+1. Install [Xcode](https://developer.apple.com/xcode/)
+1. Using Homebrew:
    1. Install [Node](https://nodejs.org/en/about/)
    2. Install [Git](https://git-scm.com/)
 
@@ -71,7 +69,7 @@ Download Iterm, a replacement commandline tool for Mac.
 
 A [Terminal Shell](http://ohmyz.sh/) with useful features and a powerful plugin ecosystem.
 
-**Note**: If you are running on MacOS Catalina (10.15.x), this step is done for you. 
+**Note**: If you are running on MacOS Catalina (10.15.x), this step is done for you.
 `zsh` comes default with MacOS Catalina.
 
 ```bash
