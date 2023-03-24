@@ -54,18 +54,6 @@
     "@commitlint/types" "^17.4.4"
     ajv "^8.11.0"
 
-"@commitlint/ensure@^17.4.0", "@commitlint/ensure@^17.4.4":
-  version "17.4.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-17.4.4.tgz#a36e7719bdb9c2b86c8b8c2e852b463a7bfda5fa"
-  integrity sha512-AHsFCNh8hbhJiuZ2qHv/m59W/GRE9UeOXbkOqxYMNNg9pJ7qELnFcwj5oYpa6vzTSHtPGKf3C2yUFNy1GGHq6g==
-  dependencies:
-    "@commitlint/types" "^17.4.4"
-    lodash.camelcase "^4.3.0"
-    lodash.kebabcase "^4.1.1"
-    lodash.snakecase "^4.1.1"
-    lodash.startcase "^4.4.0"
-    lodash.upperfirst "^4.3.1"
-
 "@commitlint/ensure@^17.4.4":
   version "17.4.4"
   resolved "https://registry.yarnpkg.com/@commitlint/ensure/-/ensure-17.4.4.tgz#a36e7719bdb9c2b86c8b8c2e852b463a7bfda5fa"
@@ -109,7 +97,7 @@
     "@commitlint/rules" "^17.4.4"
     "@commitlint/types" "^17.4.4"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^17.4.2", "@commitlint/load@^17.5.0":
+"@commitlint/load@>6.1.1", "@commitlint/load@^17.5.0":
   version "17.5.0"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.5.0.tgz#be45dbbb50aaf5eb7e8e940e1e0d6171d1426bab"
   integrity sha512-l+4W8Sx4CD5rYFsrhHH8HP01/8jEP7kKf33Xlx2Uk2out/UKoKPYMOIRcDH5ppT8UXLMV+x6Wm5osdRKKgaD1Q==
@@ -200,7 +188,7 @@
   dependencies:
     find-up "^5.0.0"
 
-"@commitlint/types@^17.4.0", "@commitlint/types@^17.4.4":
+"@commitlint/types@^17.4.4":
   version "17.4.4"
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-17.4.4.tgz#1416df936e9aad0d6a7bbc979ecc31e55dade662"
   integrity sha512-amRN8tRLYOsxRr6mTnGGGvB5EmW/4DDjLMgiwK3CCVEmN6Sr/6xePGEpWaspKkckILuUORCwe6VfDBw6uj4axQ==
@@ -1221,10 +1209,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-prettier@^8.5.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz#dec1d29ab728f4fa63061774e1672ac4e363d207"
-  integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
+eslint-config-prettier@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
+  integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
 eslint-plugin-json@^3.1.0:
   version "3.1.0"

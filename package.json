@@ -54,7 +54,7 @@
     "commitizen": "^4.2.6",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^8.34.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-prettier": "^4.2.1",
