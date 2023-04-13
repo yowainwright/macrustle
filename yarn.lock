@@ -131,10 +131,10 @@
     conventional-changelog-angular "^5.0.11"
     conventional-commits-parser "^3.2.2"
 
-"@commitlint/prompt@^17.5.0":
-  version "17.5.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-17.5.0.tgz#b135f47aaddbe219754433f2584bfe0e80a74f6c"
-  integrity sha512-UVgGj5/VYydaLaEGw3GMgBrG+vlS0OKt6hih5vkAu74KMGtUxWT7ACE/VTDuZtMv4u/bew9f6GgOr6LKIhqGng==
+"@commitlint/prompt@^17.6.0":
+  version "17.6.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/prompt/-/prompt-17.6.0.tgz#efc151cb5983d0afb7d6dd91f9ed775cdfa321e4"
+  integrity sha512-r2d/IEEalFJkGG9tQZwx7WY9QD3pvIsSyW/BP+Z2At2RqLt9NAUFL5zQTsYWq4/9dbbpjPcNxMjrESxAR6TsxQ==
   dependencies:
     "@commitlint/ensure" "^17.4.4"
     "@commitlint/load" "^17.5.0"
