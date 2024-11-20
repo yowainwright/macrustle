@@ -60,7 +60,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
     "prettier": "^3.0.0",
-    "spellchecker-cli": "^6.1.1",
+    "spellchecker-cli": "^7.0.0",
     "write-good": "^1.0.8"
   },
   "config": {
